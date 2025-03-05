@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+<!-- Include SweetAlert2 CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Explore</title>
+    <link
+      rel="icon"
+      href="../muneer-assets/Instagram_icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../muneer/index.css" />
+
+    <link rel="stylesheet" href="../muneer/modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+  </head>
+
+  <body>
+    <!-- sidebar -->
+    <div class="sidebar" id="sidebar-full">
+      <!-- top logo -->
+      <div class="top">
+        <img
+          src="../muneer-assets/logo1.svg"
+          alt="logo1"
+          width="60%"
+          height="40px"
+          style="padding-left: 3px"
+        />
+      </div>
+
+      <!-- middle links -->
+      <div class="mid">
+        <a href="../index.html" class="link">
+          <img src="../muneer-assets/home.svg" alt="home" />
+          <span>Home</span>
+        </a>
+
+        <a href="../anup/search.html" class="link">
+          <img src="../muneer-assets/search.svg" alt="search" />
+          <span>Search</span>
+        </a>
+
+        <a href="explore.html" class="link">
+          <img src="../muneer-assets/compass.svg" alt="compass" />
+          <span>Explore</span>
+        </a>
+
+        <a href="../muneer/reels.html" class="link">
+          <img src="../muneer-assets/reels.svg" alt="reels" />
+          <span>Reels</span>
+        </a>
+
+        <a href="../Dev/primary.html" class="link">
+          <img src="../muneer-assets/chat.png" alt="messenger" />
+          <span>Messages</span>
+        </a>
+
+        <a href="../anup/notification.html" class="link">
+          <img src="../muneer-assets/heart.svg" alt="heart" />
+          <span>Notifications</span>
+        </a>
+
+        <a href="#" class="open-button">
+          <img src="../muneer-assets/create.svg" alt="plus" />
+          <span>Create</span>
+        </a>
+
+        <a href="../Dev/profile.html" class="link">
+          <img
+            src="../Dev/assets/Pfp.jpg"
+            alt="profile"
+            style="border-radius: 50%; height: 30px; width: 30px"
+          />
+          <span>Profile</span>
+        </a>
+      </div>
+
+      <!-- bottom links -->
+      <div class="bottom">
+        <a href="#" class="link">
+          <img src="../muneer-assets/threads.png" alt="threads" />
+        </a>
+
+        <a href="#" class="link">
+          <img src="../muneer-assets/bars.svg" alt="bars" />
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <!-- top logo -->
+        <div class="top">
+          <p class="bg-white text-black font-sami-bold text-2xl mt-2">
+            Settings
+          </p>
+        </div>
+
+        <!-- middle links -->
+        <div class="">
+          <div
+            class="text-black w-full rounded-md shadow-xl"
+            style="background-color: rgb(255, 255, 255); padding: 20px"
+          >
+            <div class="flex gap-1">
+              <img
+                src="../muneer-assets/meta.png"
+                alt="logo1"
+                class="w-4 h-3"
+              />
+              <span style="font-size: 10px">Meta</span>
+            </div>
+            <span style="font-size: 12px">Account center</span>
+            <p style="font-size: 8px">
+              Manage your connected experiences and account settings across Meta
+              technologies.
+            </p>
+            <div class="flex gap-2 mt-1">
+              <img
+                class="w-6 h-4"
+                src="../muneer-assets/personal.webp"
+                alt=""
+              />
+              <p class="text-xs">Personal details</p>
+            </div>
+            <div class="flex gap-2 mt-1">
+              <img class="w-6 h-4" src="../muneer-assets/security.png" alt="" />
+              <p class="text-xs">Password and security</p>
+            </div>
+            <div class="flex gap-2 mt-1">
+              <img
+                class="w-6 h-4"
+                src="../muneer-assets/preference.webp"
+                alt=""
+              />
+              <p class="text-xs">Add preferences</p>
+            </div>
+          </div>
+          <a href="../Vaishali/Edit.html" class="link mt-4">
+            <img  src="../muneer-assets/editp.svg" alt="heart" />
+         <span>Edit profile</span>
+          </a>
+          <a href="../anup/notification.html" class="link">
+            <img src="../muneer-assets/notification.png" alt="heart" />
+            <span>Notifications</span>
+          </a>
+         <a href=""> <span class="text-xs">For professionals</span></a>
+          <a href="../anup/notification.html" class="link">
+            <img src="../muneer-assets/account.svg" alt="heart" />
+            <span>Professional account</span>
+          </a>
+          <a href="../anup/notification.html" class="link">
+            <img src="../muneer-assets/business.jpg" alt="heart" />
+            <span>Business tools ans controls</span>
+          </a>
+          <a href="../Vaishali/payout.html" class="link">
+            <img class="w-10 h-10" src="../muneer-assets/account.svg" alt="heart" />
+            <span>Payouts Account</span>
+          </a>
+          <a href="../anup/notification.html" class="link">
+            <img src="../muneer-assets/adddpay.svg" alt="heart" />
+            <span>Add payments</span>
+          </a>
+            </div>
+          </div>
+      <div class="container">
+        <div class="flex items-center border-b-2">
+          <img class="w-5 h-5" src="../muneer-assets/larrow.png" alt="heart" />
+          <p
+            class="bg-white text-black  pb-6 pl-60 font-sami-bold text-xl pt-6"
+          >
+            Stephanie kase Photography LLc
+          </p>
+        </div>
+
+        <div class="border-b-2 pb-6 flex items-center">
+          <p class="bg-white text-black font-bold text-xl pt-6">
+            Business type
+          </p>
+          <div class="pl-[850px]">
+            <img
+              class="w-5 h-5 mt-8"
+              src="../muneer-assets/darrow.png"
+              alt="heart"
+            />
+          </div>
+        </div>
+
+        <div class="border-b-2 pb-6 flex items-center">
+          <p class="bg-white text-black font-bold text-xl pt-6">
+            Business info
+          </p>
+          <div class="pl-[860px]">
+            <img
+              class="w-5 h-5 mt-8"
+              src="../muneer-assets/darrow.png"
+              alt="heart"
+            />
+          </div>
+        </div>
+
+        <div class="border-b-2 pb-6 flex items-center">
+          <p class="bg-white text-black font-bold text-xl pt-6">
+            Legal owner info
+          </p>
+          <div class="pl-[830px]">
+            <img
+              class="w-5 h-5 mt-8"
+              src="../muneer-assets/darrow.png"
+              alt="heart"
+            />
+          </div>
+        </div>
+
+<!-- Payouts to: Paypal Section -->
+<div class="border-b-2 pb-6 pt-6 flex items-center cursor-pointer" id="toggleButton">
+  <p class="text-black font-bold text-lg">Payouts to: Paypal</p>
+  <div class="pl-[830px]">
+    <img id="arrowIcon" class="w-5 h-5" src="../muneer-assets/darrow.png" alt="toggle" />
+  </div>
+</div>
+
+<!-- Hidden Section (Initially Hidden) -->
+<div id="extraInfo" class="hidden mt-4  p-4 ">
+    <div class="pb-6">
+        <p class="text-black font-semi-bold">Stephanie Brann</p>
+        <p class="text-black">stephanie@stephanieKase.com</p>
+    </div>
+    <div class="flex items-center gap-2">
+      <img class="w-6 h-6" src="../muneer-assets/gift.png" alt="">
+
+      <div>
+        <p class="text-black font-semi-bold">Bonuses</p>
+        <p class="text-gray-500">paypal</p>
+      </div>
+      <div class="pl-[880px]">
+        <img
+          class="w-5 h-5"
+          src="../muneer-assets/rarrow.png"
+          alt="heart"
+        />
+      </div>
+    </div>
+    <div class="flex items-center gap-2 pt-6">
+      <img class="w-6 h-6" src="../muneer-assets/bicon.png" alt="">
+      <div>
+        <p class="text-black font-semi-bold">Badges</p>
+        <p class="text-gray-500">paypal</p>
+      </div>
+      <div class="pl-[880px]">
+        <img
+          class="w-5 h-5"
+          src="../muneer-assets/rarrow.png"
+          alt="heart"
+        />
+      </div>
+    </div>
+
+
+
+
+<!-- Update Payout Method Button -->
+<p id="updatePayoutBtn" class="text-teal-500 mt-6 font-semibold cursor-pointer">Update payout method</p>
+
+<!-- Custom Modal -->
+<div id="paymentModal" class="modal hidden">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <div>
+            <div class="flex gap-36 border-b-2 pb-2">
+                <a id="closeModalBtn" class="text-black ">Cancel</a>
+                <h1 class="text-black font-bold">Bonuses</h1>
+                <p class="text-gray-500">Save</p>
+            </div>
+            <h2 class="text-black mt-2">Change payout method</h2>
+            <h2 class="text-gray-500 mt-2">Changes may delay your next payout</h2>
+        </div>
+
+        <!-- PayPal Section with Icon Selection -->
+        <div class="flex  gap-4 mt-4">
+            <input type="radio" id="paypal" name="paymentMethod" value="PayPal" class="payment-option">
+            <label for="paypal" class="payment-label">
+              
+               <div class="">
+                <p class="text-black">PayPal</p>
+               </div>
+            </label>
+        </div>
+
+        <!-- Bank Account Section with Icon Selection -->
+        <div class="flex items-center gap-4 mt-4">
+            <input type="radio" id="bankAccount" name="paymentMethod" value="Bank Account" class="payment-option">
+            <label for="bankAccount" class="payment-label">
+               
+                <p class="text-black">Bank Account</p>
+            </label>
+        </div>
+
+        <!-- Cryptocurrency Section with Icon Selection -->
+        <div class="flex items-center gap-4 mt-4">
+            <input type="radio" id="crypto" name="paymentMethod" value="Cryptocurrency" class="payment-option">
+            <label for="crypto" class="payment-label">
+               
+                <p class="text-black">Cryptocurrency</p>
+            </label>
+        </div>
+        <div>
+        <p class="text-teal-500 mt-4">Add new payout method</p>
+      </div>
+    
+    </div>
+</div>
+
+<!-- CSS for Modal -->
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        overflow: auto;
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 500px;
+    }
+    .close {
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        cursor: pointer;
+    }
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .payment-label {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Align icon and text to the left */
+    }
+    .payment-label p {
+        margin-left: 8px;
+    }
+</style>
+
+<!-- JavaScript for Modal -->
+<script>
+    // Open the modal when the "Update payout method" button is clicked
+    document.getElementById("updatePayoutBtn").addEventListener("click", function () {
+        document.getElementById("paymentModal").style.display = "block"; // Show the modal
+    });
+
+    // Close the modal when the close button (x) is clicked
+    document.getElementById("closeModal").addEventListener("click", function () {
+        document.getElementById("paymentModal").style.display = "none"; // Hide the modal
+    });
+
+    // Close the modal when the "Close" button is clicked
+    document.getElementById("closeModalBtn").addEventListener("click", function () {
+        document.getElementById("paymentModal").style.display = "none"; // Hide the modal
+    });
+
+    // Confirm the selection and show the alert
+    document.getElementById("confirmSelection").addEventListener("click", function () {
+        // Get the selected payment method
+        const selectedMethod = document.querySelector('input[name="paymentMethod"]:checked');
+        
+        if (selectedMethod) {
+            // Display an alert with the selected method
+            alert("You have successfully updated your payout method to " + selectedMethod.value + "!");
+        } else {
+            alert("Please select a payment method first.");
+        }
+        document.getElementById("paymentModal").style.display = "none"; // Hide the modal
+    });
+</script>
+
+
+
+
+
+
+
+</div>
+
+<!-- JavaScript for Toggle -->
+<script>
+    document.getElementById("toggleButton").addEventListener("click", function () {
+        const infoSection = document.getElementById("extraInfo");
+        const arrowIcon = document.getElementById("arrowIcon");
+
+        infoSection.classList.toggle("hidden");
+
+        // Toggle arrow image
+        if (infoSection.classList.contains("hidden")) {
+            arrowIcon.src = "../muneer-assets/darrow.png"; // Down Arrow
+        } else {
+            arrowIcon.src = "../muneer-assets/toarrow.webp"; // Up Arrow
+        }
+    });
+</script>
+
+
+
+        <div class="flex pb-6 pt-6">
+          <p class="bg-white text-black font-bold text-xl">Payouts</p>
+          <a href=""
+            ><p class="bg-white pl-[900px] text-teal-500 font-bold text-sm">
+              See all
+            </p></a
+          >
+        </div>
+
+        <div class="flex items-center">
+          <div class="pb-6">
+            <p class="bg-white text-black font-sami-bold text-xm">$399.43</p>
+            <p class="bg-white text-black font-sami-bold text-xm">
+              Jun 21,2022.Paid
+            </p>
+          </div>
+          <div class="pl-[880px]">
+            <img
+              class="w-5 h-5"
+              src="../muneer-assets/rarrow.png"
+              alt="heart"
+            />
+          </div>
+        </div>
+
+        <div class="flex items-center">
+          <div class="pb-6">
+            <p class="bg-white text-black text-xm">$128.91</p>
+            <p class="bg-white text-black text-xm">May 19,2022.Paid</p>
+          </div>
+        
+        <div class="pl-[880px]">
+          <img class="w-5 h-5" src="../muneer-assets/rarrow.png" alt="heart" />
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar" style="width: 72px !important" id="sidebar-1160">
+      <!-- top logo -->
+      <div class="top">
+        <a href="../index.html">
+          <img
+            src="../anup/assets/insta.png"
+            alt="logo1"
+            style="width: 23px !important; height: 23px !important"
+          />
+        </a>
+      </div>
+
+      <!-- bottom links -->
+      <div class="bottom">
+        <a href="#" class="link">
+          <img src="../muneer-assets/threads.png" alt="threads" />
+        </a>
+        <a href="#" class="link">
+          <img src="../muneer-assets/bars.svg" alt="bars" />
+        </a>
+      </div>
+    </div>
+
+    <!-- sidebars for width 767px and 480px
+        
+        --------------------------------------------------------------------------------------------------------------------
+        --------------------------------------------------------------------------------------------------------------------
+        --------------------------------------------------------------------------------------------------------------------
+        
+    -->
+    <!-- <div class="top-bar">
+        
+      <a class="logo" href="../index.html">
+            <img src="../muneer-assets/logo1.svg" alt="">
+            <i class="fi fi-rr-angle-small-down" style="position: absolute; left: 135px; top: 10px;"></i>
+        </a> 
+        
+        <div class="right-side">
+            
+         
+           <a href="../anup/notification-list.html">
+                <img src="../muneer-assets/heart.svg" alt="heart" width="23px">
+            </a>
+        </div>
+        
+    </div> -->
+
+    <div class="bottom-bar">
+      <a href="../index.html">
+        <img src="../muneer-assets/home.svg" alt="home" />
+      </a>
+
+      <a href="explore.html">
+        <img src="../muneer-assets/compass.svg" alt="" />
+      </a>
+
+      <a href="../muneer/reels.html">
+        <img src="../muneer-assets/reels.svg" alt="reels" />
+      </a>
+
+      <a href="#" class="open-button">
+        <img src="../muneer-assets/create.svg" alt="create" />
+      </a>
+
+      <a href="../Dev/primary.html">
+        <img src="../muneer-assets/chat.png" alt="messages" />
+      </a>
+
+      <a href="../Dev/profile.html">
+        <img
+          src="../Dev/assets/Pfp.jpg"
+          alt="profile"
+          style="border-radius: 50%"
+        />
+      </a>
+    </div>
+
+    <!-- fontawesome script -->
+    <script
+      src="https://kit.fontawesome.com/b51e04bf50.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- create post popup -->
+    <dialog class="modal" id="modal">
+      <h4 style="margin-top: 10px; font-weight: 500">Create new post</h4>
+      <hr style="margin-top: 10px" />
+      <div class="centre-content">
+        <img
+          src="../muneer-assets/multimedia.png"
+          alt="multimedia"
+          width="100px"
+          height="100px"
+        />
+        <p class="normal">Drag photos and videos here</p>
+        <p class="blue">Select from computer</p>
+      </div>
+      <button class="button close-button">
+        <i class="fi fi-rr-cross"></i>
+      </button>
+    </dialog>
+
+    <script>
+      const modal = document.querySelector("#modal");
+      const openModals = document.querySelectorAll(".open-button");
+      const closeModal = document.querySelector(".close-button");
+
+      openModals.forEach((openModal) => {
+        openModal.addEventListener("click", () => {
+          modal.showModal();
+        });
+      });
+
+      closeModal.addEventListener("click", () => {
+        modal.close();
+      });
+    </script>
+
+    <!-- fontawesome script -->
+    <script
+      src="https://kit.fontawesome.com/b51e04bf50.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../muneer/index.js"></script>
+  </body>
+</html>
