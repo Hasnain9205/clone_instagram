@@ -24,13 +24,27 @@ body {
 #sidebar-1160 {
   display: none;
 }
-
+.edit {
+  border-right: 1px groove rgb(199, 199, 199);
+  height: 100vh;
+  padding: 2rem 3rem 5rem 1rem;
+}
+.payout {
+  border-right: 1px groove rgb(199, 199, 199);
+  height: 100vh;
+  padding: 2rem 3rem 5rem 1rem;
+}
+.settings {
+  border-right: 1px groove rgb(199, 199, 199);
+  height: 100vh;
+  padding: 2rem 3rem 5rem 1rem;
+}
 .sidebar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  width: 400px;
+  width: 250px;
   height: 100vh;
   background-color: var(--nav-bg);
   border-right: 1px groove rgb(199, 199, 199);
